@@ -27,6 +27,9 @@ ro.build.device_family=P10C10L10
 ro.com.google.ime.height_ratio=1.075
 ro.com.google.ime.kb_pad_port_b=8
 
+# One-handed mode
+ro.support_one_handed_mode=true
+
 # Quick start
 ro.quick_start.device_id=panther
 
