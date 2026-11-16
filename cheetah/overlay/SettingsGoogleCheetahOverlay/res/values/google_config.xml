@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <bool name="config_adaptive_alert_vibration_enabled">true</bool>
+    <string name="config_limited_warranty_overlay_package_name" translatable="false">com.android.settings.overlay.cheetah</string>
+</resources>
