@@ -2,6 +2,9 @@
 
 # product partition
 
+# Adaptive Connectivity
+product/priv-app/SCONE-v69510/SCONE-v69510.apk;PRESIGNED
+
 # AiAi
 product/priv-app/DeviceIntelligenceNetworkPrebuiltAstrea/DeviceIntelligenceNetworkPrebuiltAstrea.apk;PRESIGNED
 product/priv-app/DevicePersonalizationAiAiPrebuiltPixel2022/DevicePersonalizationAiAiPrebuiltPixel2022.apk;PRESIGNED
