@@ -112,6 +112,13 @@ product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk;PRESIGNED
 product/priv-app/OemDmTrigger/OemDmTrigger.apk
 product/priv-app/WfcActivation/WfcActivation.apk;PRESIGNED
 
+# Wallpapers
+product/app/PixelThemesStub2022_and_newer/PixelThemesStub2022_and_newer.apk;OVERRIDES=ThemesStub;PRESIGNED
+product/app/PixelWallpapers2022/PixelWallpapers2022.apk;PRESIGNED
+product/wallpaper/image/default_wallpaper_BLK
+product/wallpaper/image/default_wallpaper_WHT
+product/wallpaper/image/default_wallpaper_YEL
+
 # system_ext partition
 
 # AiAi
