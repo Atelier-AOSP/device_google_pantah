@@ -45,15 +45,8 @@
         </interface>
     </hal>
     <hal format="aidl">
-        <name>vendor.google.hardware.biometrics.face</name>
-        <interface>
-            <name>IFaceExt</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="aidl">
         <name>vendor.google.wireless_charger</name>
-        <version>7-8</version>
+        <version>7-9</version>
         <interface>
             <name>IWirelessCharger</name>
             <instance>default</instance>
