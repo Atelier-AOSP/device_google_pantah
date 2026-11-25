@@ -1,1 +1,2 @@
+persist.com.google.hardware.biometrics.face.exp1.enabled u:object_r:google_biometrics_face_prop:s0 exact bool
 persist.device_config.pixel_faceauth. u:object_r:device_config_faceauth_native_prop:s0

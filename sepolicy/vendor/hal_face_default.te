@@ -2,8 +2,6 @@ hal_client_domain(hal_face_default, hal_graphics_allocator)
 hal_client_domain(hal_face_default, hal_power)
 hal_client_domain(hal_face_default, hal_thermal)
 
-hal_server_domain(hal_face_default, hal_face_debug)
-
 add_service(hal_face_default, hal_face_ext_service)
 
 binder_call(hal_face_default, cameraserver)
@@ -13,6 +11,7 @@ binder_call(hal_face_default, system_app)
 
 get_prop(hal_face_default, camera_config_prop)
 get_prop(hal_face_default, device_config_faceauth_native_prop)
+get_prop(hal_face_default, google_biometrics_face_prop)
 
 perfetto_producer(hal_face_default)
 
@@ -28,4 +27,5 @@ allow hal_face_default gxp_device:chr_file rw_file_perms;
 allow hal_face_default hal_pixel_display_service:service_manager find;
 allow hal_face_default mnt_vendor_file:dir search;
 allow hal_face_default tee_device:chr_file rw_file_perms;
+allow hal_face_default tmpfs:file rw_file_perms;
 allow hal_face_default vndbinder_device:chr_file ioctl;

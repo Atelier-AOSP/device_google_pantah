@@ -1,5 +1,6 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.bluetooth-service\.bcmbtlinux u:object_r:hal_bluetooth_btlinux_exec:s0
 /data/vendor/bluetooth(/.*)? u:object_r:vendor_bt_data_file:s0
+/data/vendor/facedata(/.*)? u:object_r:face_vendor_data_file:s0
 /data/vendor/gps(/.*)? u:object_r:vendor_gps_file:s0
 /data/vendor/wireless_charger(/.*)? u:object_r:vendor_wlc_file:s0
 /dev/bbd_control u:object_r:vendor_gnss_device:s0

@@ -1,8 +1,0 @@
-type hal_face_debug_service, hal_service_type, protected_service, service_manager_type;
-
-binder_call(hal_face_debug_client, hal_face_debug_server)
-binder_call(hal_face_debug_server, hal_face_debug_client)
-
-binder_use(hal_face_debug_server)
-
-hal_attribute_service(hal_face_debug, hal_face_debug_service)

@@ -1,1 +1,2 @@
 system_restricted_prop(device_config_faceauth_native_prop)
+system_restricted_prop(google_biometrics_face_prop)

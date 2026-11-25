@@ -1,3 +1,6 @@
 hal_client_domain(platform_app, hal_face)
 
+set_prop(platform_app, google_biometrics_face_prop)
+
 allow platform_app hal_face_ext_service:service_manager find;
+allow platform_app hal_face_service:service_manager find;
